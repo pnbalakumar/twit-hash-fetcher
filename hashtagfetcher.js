@@ -4,10 +4,10 @@ class hashtagfetcher
 {
   constructor(htag, db){
     this.twitterclient = new Twitter({
-      consumer_key: '35RPkwWsxAX1UehBiBnKvB7ah',
-      consumer_secret: '7XTwJYYf8q2fBkLIp9JNPMbTo0jgpkA7oEh8txzsTEVEvJqaQ0',
-      access_token_key: '125275951-BnmTgRLQV5UWWxG28aoBKDTpZIeErfrRxMngJ5fC',
-      access_token_secret: 'WbFkrQY8njkblm3dt5cZmezJosYaMsnj5t1i6xL0B3Xzj'
+      consumer_key: '<YOUR KEY>',
+      consumer_secret: '<YOUR KEY>',
+      access_token_key: '<YOUR KEY>',
+      access_token_secret: '<YOUR KEY>'
     });
 
     this.hastag = htag;
